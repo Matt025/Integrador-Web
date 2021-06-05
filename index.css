@@ -1,0 +1,199 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    background-color: #0E0E0E;
+}
+
+header {
+    min-height: 70vh;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.container-nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 115, 8, 0.3);
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-ul {
+    z-index: 1;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-ul li {
+    font-size: 1.2em;
+    list-style: none;
+    margin: 0px 10px;
+    color: blanchedalmond;
+    
+}
+
+.nav-ul li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.logo {
+    z-index: 1;
+    width: 7%;
+    transition: all 250ms ease-in-out;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.portada {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.portada-filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sect-cafe{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.card-history{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    padding: 2%;
+    background-color: orange;
+}
+.title-card-history{
+    color: black;
+    font-size: 2em;
+    font-family: 'Merriweather', serif;
+}
+.card-history p{
+    color: black;
+}
+.history{
+    color: orange;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-family: 'Farro', sans-serif;
+}
+.container-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    background-color: black;
+    
+}
+.container-carousel h2{
+    background-color: transparent;
+    color: orange;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.tamaño-carousel{
+    width: 55%;
+}
+.Contacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-contacto{
+    background-color: black;
+    width: 40%;
+    border-radius: 20px;
+    padding: 30px;
+    -webkit-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+}
+.card-contacto h2 {
+    color: orange;
+    text-align: center;
+}
+.container-input{
+    color: orange;
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-input input{
+    color: orange;
+    width: 80%;
+}
+.container-btn{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    color: orange;
+}
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-icons i {
+    color: white;
+    font-size: 2em;
+    margin: 0px 10px;
+    
+}
+
+.icon-facebook:hover{
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.icon-twitter:hover{
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.icon-instagram:hover{
+    color: #5851db;
+    cursor: pointer;
+}
