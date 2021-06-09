@@ -46,7 +46,10 @@ header {
     color: blanchedalmond;
     
 }
-
+.nav-ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
 .nav-ul li:hover {
     cursor: pointer;
     color: black;
