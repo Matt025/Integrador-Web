@@ -3,7 +3,8 @@
     margin: 0px;
     font-family: 'Merriweather', serif;
 }
-
+html {
+    scroll-behavior: smooth }
 body {
     background-color: #0E0E0E;
 }
@@ -54,7 +55,10 @@ header {
     cursor: pointer;
     color: black;
 }
-
+.nav-ul li:hover{
+    cursor: pointer;
+    color: black;
+}
 .logo {
     z-index: 1;
     width: 7%;
@@ -135,6 +139,36 @@ header {
 .tamaño-carousel{
     width: 55%;
 }
+.cafes{
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    width: 15%;
+    -webkit-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 21px 0px rgba(0,0,0,0.75);
+}
+.card-cafe img{
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;    
+}
+.card-cafe h3{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.card-cafe p {
+    color: white;
+    text-align: center;
+    line-height: 1.3rem;
+    padding: 30px;
+    font-family: 'Merriweather', serif;
+}
+
 .Contacto{
     display: flex;
     justify-content: center;
