@@ -6,6 +6,9 @@
 body {
     font-family: 'Merriweather', serif;;
     background-image: url('tazas-capuccino-1600X900.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .form-login {
     width: 400px;
